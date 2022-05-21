@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://i.ibb.co/ZhgG0M6/Gear-controller.jpg",
+        "name": "Car Gear Controller",
+        "des": "A gear shift controller is described for an automatic transmission having a gear shift, comprising: a hydraulic torque converter; a gear change group, having a plurality of gears, each gear providing a different transmission ratio for the transmission of power from the hydraulic torque converter to the output of the transmission, each of the gears comprising a gear train; a one-way clutch interposed in at least one of the gear trains; a plurality of clutch means operatively connected with the gear trains for actuating each of the gear trains selectively",
+        "minimumOrderQuantity": 50,
+        "availableQuantity": 300,
+        "price": 300
+    },
+    {
+        "img": "https://i.ibb.co/zRwFhbn/stearing.jpg",
+        "name": "Car Steering",
+        "des": "A gear shift controller is described for an automatic transmission having a gear shift, comprising: a hydraulic torque converter; a gear change group, having a plurality of gears, each gear providing a different transmission ratio for the transmission of power from the hydraulic torque converter to the output of the transmission, each of the gears comprising a gear train; a one-way clutch interposed in at least one of the gear trains; a plurality of clutch means operatively connected with the gear trains for actuating each of the gear trains selectively",
+        "minimumOrderQuantity": 50,
+        "availableQuantity": 300,
+        "price": 300
+    },
+    {
+        "img": "https://i.ibb.co/HT4VfGR/car-back-light.jpg",
+        "name": "Car Back Light",
+        "des": "A gear shift controller is described for an automatic transmission having a gear shift, comprising: a hydraulic torque converter; a gear change group, having a plurality of gears, each gear providing a different transmission ratio for the transmission of power from the hydraulic torque converter to the output of the transmission, each of the gears comprising a gear train; a one-way clutch interposed in at least one of the gear trains; a plurality of clutch means operatively connected with the gear trains for actuating each of the gear trains selectively",
+        "minimumOrderQuantity": 50,
+        "availableQuantity": 300,
+        "price": 300
+    }
+]
