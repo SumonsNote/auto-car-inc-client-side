@@ -10,7 +10,7 @@ const Parts = () => {
     }, [])
     return (
         <div className='my-20'>
-            <h1 class="text-4xl font-bold text-center">Parts | Tools</h1>
+            <h1 class="text-4xl font-bold text-center my-10 text-secondary">Parts | Tools</h1>
             <div className='text-center my-5'>
                 <progress class="progress progress-info w-56" value="100" max="100"></progress>
             </div>
