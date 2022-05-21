@@ -4,8 +4,13 @@ import {faGlobe, faRectangleList, faUserGroup } from '@fortawesome/free-solid-sv
 
 const BusinessSummery = () => {
     return (
-        <div className='my-10'>
-            <h1 class="text-4xl font-bold text-center my-10">World Wide Business</h1>
+        <div className='my-20'>
+            <h1 class="text-4xl font-bold text-center my-10 text-secondary">World Wide Business</h1>
+            <p className='text-primary text-2xl text-center my-10 uppercase'>We are trying our products best quality</p>
+            <div className='text-center my-5'>
+            <progress class="progress progress-info w-56" value="100" max="100"></progress>
+            </div>
+            
             <div className='flex justify-center gap-10'>
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <div class="card-body items-center">

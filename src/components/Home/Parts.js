@@ -9,7 +9,7 @@ const Parts = () => {
             .then(data => setParts(data))
     }, [])
     return (
-        <div className='my-5'>
+        <div className='my-20'>
             <h1 class="text-4xl font-bold text-center">Parts | Tools</h1>
             <div className='flex justify-center gap-20 my-10'>
                 {
