@@ -26,8 +26,8 @@ const Review = () => {
                                     </div>
                                 </div>
                                 <h2 class="card-title">{review.name}</h2>
-                                <p>Rating: {review.rating}</p>
-                                <p>Review: {review.review}</p>
+                                <p><span className='font-bold'>Rating:</span> {review.rating}</p>
+                                <p><span className='font-bold'>Review:</span> {review.review}</p>
                             </div>
                         </div>)
                 }
