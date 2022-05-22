@@ -39,6 +39,7 @@ const Navbar = () => {
             <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li><Link to='/home'>Home</Link></li>
+                    <li>{user && <Link to='/dashboard'>Dashboard</Link>}</li>
                     <li>{
                         user ? <button onClick={logout}>Log Out</button>  :
                         <Link to='/login'>Login</Link>}</li>
