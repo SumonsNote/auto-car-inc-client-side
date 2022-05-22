@@ -1,18 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 
 const PartsDetail = ({part}) => {
+    const navigate = useNavigate()
+
+    const autoCarInc = id => {
+        navigate(`/purchase/${_id}`);
+    }
+    const {_id, img, des, minimumOrderQuantity, availableQuantity, price, name} = part;
     return (
         <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src={part.img} alt="Shoes" /></figure>
+            <figure><img src={img} alt="Shoes" /></figure>
             <div class="card-body">
-                <h2 class="text-center font-bold text-2xl">{part.name}</h2>
-                <p>Description: {part.des}</p>
-                <p className='font-bold'>Minimum Order Quantity: {part.minimumOrderQuantity}</p>
-                <p className='font-bold'>Available Quantity: {part.availableQuantity}</p>
-                <p className='font-bold'>Price: {part.price}</p>
+                <h2 class="text-center font-bold text-2xl">{name}</h2>
+                <p>Description: {des}</p>
+                <p className='font-bold'>Minimum Order Quantity: {minimumOrderQuantity}</p>
+                <p className='font-bold'>Available Quantity: {availableQuantity}</p>
+                <p className='font-bold'>Price: {price}</p>
                 <div class="card-actions justify-center">
-                    <Link to='/purchase'><button class="btn btn-primary">Buy Now</button></Link>
+                <button onClick={() => autoCarInc(_id)} class="btn btn-primary">Buy Now</button>
                 </div>
             </div>
         </div>
