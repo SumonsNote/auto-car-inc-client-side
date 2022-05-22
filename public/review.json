@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://i.ibb.co/KhmLPXM/david-hansol.jpg",
+        "name": "David Hanson",
+        "rating": 4,
+        "review": "The product was good. There was no hassle about getting that. I recommend the product for everyone who are interested about the products in this world. The company was soo good to buy."
+    },
+    {
+        "img": "https://i.ibb.co/K7mL7xX/gates.jpg",
+        "name": "Bill Gates",
+        "rating": 4,
+        "review": "The product was good. There was no hassle about getting that. I recommend the product for everyone who are interested about the products in this world. The company was soo good to buy."
+    },
+    {
+        "img": "https://i.ibb.co/ggLG3CQ/musk.jpg",
+        "name": "Elo Musk",
+        "rating": 4,
+        "review": "The product was good. There was no hassle about getting that. I recommend the product for everyone who are interested about the products in this world. The company was soo good to buy."
+    },
+    {
+        "img": "https://i.ibb.co/4WJ76CR/alien.jpg",
+        "name": "Alien Ali",
+        "rating": 4,
+        "review": "The product was good. There was no hassle about getting that. I recommend the product for everyone who are interested about the products in this world. The company was soo good to buy."
+    }
+]
