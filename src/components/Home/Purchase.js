@@ -22,7 +22,7 @@ const Purchase = () => {
                     <p>Minimum Order Quantity: {purchase.minimumOrderQuantity}</p>
                     <p>Available Quantity: {purchase.availableQuantity}</p>
                     <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Listen</button>
+                        <button class="btn btn-primary">Order</button>
                     </div>
                 </div>
             </div>

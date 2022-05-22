@@ -28,6 +28,7 @@ const SocialLogin = () => {
 
     if (user) {
         navigate(from, { replace: true });
+        console.log(user);
     }
     return (
         <div>

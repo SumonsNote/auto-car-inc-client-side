@@ -40,8 +40,9 @@ const Navbar = () => {
                 <ul class="menu menu-horizontal p-0">
                     <li><Link to='/home'>Home</Link></li>
                     <li>{
-                        user ? <button onClick={logout}>Log Out</button> :
+                        user ? <button onClick={logout}>Log Out</button>  :
                         <Link to='/login'>Login</Link>}</li>
+                        <li><span>{user ? user.displayName : ''}</span></li>
                 </ul>
             </div>
         </div>

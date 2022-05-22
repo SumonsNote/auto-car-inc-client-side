@@ -20,6 +20,7 @@ const Login = () => {
 
     if (user) {
         navigate(from, { replace: true });
+        console.log(user)
     }
 
     let signInError;
