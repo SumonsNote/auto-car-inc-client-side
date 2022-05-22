@@ -4,7 +4,7 @@ import SocialLogin from './SocialLogin';
 
 const Login = () => {
     return (
-        <div class="hero min-h-screen bg-base-200">
+        <div class="hero min-h-screen">
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <div class="card-body">
                     <h1 class="text-4xl font-bold text-center">Login now!</h1>
