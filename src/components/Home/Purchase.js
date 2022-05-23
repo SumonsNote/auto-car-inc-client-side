@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router-dom';
 import auth from '../../Firebase.init';
 
 const Purchase = () => {
-    const {reset } = useForm();
     const [user] = useAuthState(auth);
     const { purchaseId } = useParams()
     const [purchase, Setpurchase] = useState([])
@@ -37,7 +35,6 @@ const Purchase = () => {
         })
             .then(res => res.json())
             .then(data => {
-                reset()
                 console.log(data);
             })
 
