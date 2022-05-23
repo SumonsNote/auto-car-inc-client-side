@@ -18,6 +18,7 @@ const MyOrders = () => {
                             <th>Name</th>
                             <th>Product</th>
                             <th>Number</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
