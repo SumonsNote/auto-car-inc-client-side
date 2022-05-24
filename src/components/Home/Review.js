@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Review = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('review.json')
+        fetch('http://localhost:5000/review')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
@@ -18,13 +18,6 @@ const Review = () => {
                     reviews.map(review =>
                         <div class="card w-96 bg-base-100 shadow-xl my-10">
                             <div class="card-body">
-                                <div class="avatar-group -space-x-6 ">
-                                    <div class="avatar">
-                                        <div class="w-12">
-                                            <img src={review.img} alt='' />
-                                        </div>
-                                    </div>
-                                </div>
                                 <h2 class="card-title">{review.name}</h2>
                                 <p><span className='font-bold'>Rating:</span> {review.rating}</p>
                                 <p><span className='font-bold'>Review:</span> {review.review}</p>
