@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import DeleteModal from './DeleteModal';
 import MyOrderRow from './MyOrderRow';
 
 const MyOrders = () => {
+    const [deleteOrder, setDeleteOrder] = useState(null);
     const [orders, setOrders] = useState([])
     useEffect(() => {
         fetch('http://localhost:5000/orders')
@@ -24,11 +26,18 @@ const MyOrders = () => {
                     </thead>
                     <tbody>
                         {
-                            orders.map(order => <MyOrderRow order={order}></MyOrderRow>)
+                            orders.map(order => <MyOrderRow 
+                            order={order}
+                            setDeleteOrder={setDeleteOrder}
+                            ></MyOrderRow>)
                         }
                     </tbody>
                 </table>
             </div>
+            {deleteOrder && <DeleteModal
+            deleteOrder={deleteOrder}
+            setDeleteOrder={setDeleteOrder}
+            ></DeleteModal>}
         </div>
     );
 };
