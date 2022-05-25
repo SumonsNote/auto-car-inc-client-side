@@ -28,7 +28,7 @@ const AddReview = () => {
     }
     return (
         <div>
-            <h1 class="text-4xl font-bold text-center my-10 text-secondary">Welcome to Add Review</h1>
+            <h1 class="text-4xl font-bold text-center my-10 text-secondary uppercase">Add Review</h1>
             <div class="card flex-shrink-0 w-full max-w-md shadow-2xl mx-auto my-10">
                 <form onSubmit={handleOrder}>
                     <div class="card-body">

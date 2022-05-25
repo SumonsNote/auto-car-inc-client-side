@@ -14,6 +14,8 @@ import MyProfile from './components/Dashboard/MyProfile';
 import Blog from './components/Home/Blog';
 import MyPortfolio from './components/Home/MyPortfolio';
 import NotFound from './components/Home/NotFound';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -36,6 +38,7 @@ function App() {
         </Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import MyOrderRow from './MyOrderRow';
 
 const MyOrders = () => {
     const [orders, setOrders] = useState([])
@@ -23,14 +24,7 @@ const MyOrders = () => {
                     </thead>
                     <tbody>
                         {
-                            orders.map(order =>
-                                <tr>
-                                    <th></th>
-                                    <td>{order.name}</td>
-                                    <td>{order.product}</td>
-                                    <td>{order.number}</td>
-                                </tr>
-                            )
+                            orders.map(order => <MyOrderRow order={order}></MyOrderRow>)
                         }
                     </tbody>
                 </table>
