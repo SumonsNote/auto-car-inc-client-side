@@ -36,7 +36,7 @@ const AddReview = () => {
                             <label class="label">
                                 <span class="label-text">Name</span>
                             </label>
-                            <textarea name='name'  type="text" placeholder="Name" class="input input-bordered" />
+                            <input name='name'  type="text" placeholder="Name" class="input input-bordered" />
                         </div>
                         <div class="form-control">
                             <label class="label">

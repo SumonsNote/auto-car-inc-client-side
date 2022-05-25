@@ -7,7 +7,7 @@ const Banner = () => {
             <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
                     <h1 class="mb-5 text-5xl font-bold">Auto Car Inc</h1>
-                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <p class="mb-5">Providing easy finance for pre-owned cars to gain more loyal customers regardless of bad credit or no credit score beside the most satisfying ownership experience in Middle Tennessee.</p>
                     <button class="btn btn-primary">Get Started</button>
                 </div>
             </div>
