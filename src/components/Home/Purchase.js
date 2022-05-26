@@ -23,7 +23,7 @@ const Purchase = () => {
             name: user.displayName,
             email: user.email,
             product: product,
-            number: number
+            number: number,
         }
 
         fetch('https://tranquil-sands-66866.herokuapp.com/orders', {
