@@ -13,7 +13,7 @@ const AddReview = () => {
             rating: rating,
         }
 
-        fetch('http://localhost:5000/review', {
+        fetch('https://tranquil-sands-66866.herokuapp.com/review', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'

@@ -9,7 +9,7 @@ const Purchase = () => {
     const [purchase, Setpurchase] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/parts/${purchaseId}`)
+        fetch(`https://tranquil-sands-66866.herokuapp.com/parts/${purchaseId}`)
             .then(res => res.json())
             .then(data => Setpurchase(data))
     }, [])
@@ -26,7 +26,7 @@ const Purchase = () => {
             number: number
         }
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://tranquil-sands-66866.herokuapp.com/orders', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'
