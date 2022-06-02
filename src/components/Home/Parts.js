@@ -14,7 +14,7 @@ const Parts = () => {
             <div className='text-center my-5'>
                 <progress class="progress progress-info w-56" value="100" max="100"></progress>
             </div>
-            <div className='flex justify-center gap-20 my-10'>
+            <div className='grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-10'>
                 {
                     parts.map(part => <PartsDetail part={part}></PartsDetail>)
                 }

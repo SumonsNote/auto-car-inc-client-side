@@ -9,7 +9,7 @@ const PartsDetail = ({part}) => {
     }
     const {_id, img, des, minimumOrderQuantity, availableQuantity, price, name} = part;
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card lg:max-w-lg bg-base-100 shadow-xl">
             <figure><img src={img} alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="text-center font-bold text-2xl">{name}</h2>
