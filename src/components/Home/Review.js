@@ -8,7 +8,7 @@ const Review = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <div className='card lg:max-w-lg'>
+        <div>
             <h1 class="text-4xl font-bold text-center my-10 text-secondary uppercase">Customer Reviews</h1>
             <div className='text-center my-5'>
                 <progress class="progress progress-info w-56" value="100" max="100"></progress>
